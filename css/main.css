@@ -3,7 +3,7 @@ html {
   font-size: 20px; /* This is our baseline. 1rem now equals 16px. */
 }
 body {
-  background-color: #F5F5F4 !important;
+  background-color: #d1d1d1!important;
   /* Or for an image: */
   /* background-image: url('../assets/background.jpg'); */
   /* background-size: cover; */
