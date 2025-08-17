@@ -53,7 +53,7 @@ thead {
 /* Primary Call-to-Action Button - For the MOST important action */
 .btn-primary {
   display: inline-block; /* Allows us to set padding */
-  background-color: ##394b38; /* A clear, attention-grabbing blue */
+  background-color: #ffde59; /* A clear, attention-grabbing blue */
   color: white;
   padding: 12px 20px;
   border-radius: 5px;
@@ -83,4 +83,41 @@ thead {
 .responsive-iframe {
   max-width: 100%;
   height: auto;
+}
+/* Dark Green Navigation Bar */
+.navbar {
+  background-color: #205225; /* Dark green */
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: #394b38;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #ffde59; /* Accent color on hover */
+}
+
+.logo-link img {
+  height: 48px;
+  width: auto;
+  vertical-align: middle;
 }
