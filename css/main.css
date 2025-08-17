@@ -64,7 +64,7 @@ thead {
 
 /* Add a hover effect for better user experience */
 .btn-primary:hover {
-  background-color: #ffde59; /* A darker blue on hover */
+  background-color: #f8c804; /* A darker blue on hover */
 }
 
 /* Secondary Button - For less critical actions like "Learn More" */
