@@ -205,3 +205,11 @@ thead {
   background-position: center;
   background-attachment: fixed;
 }
+.overlay-content {
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 2rem auto;
+  color: #fff; /* makes text readable */
+}
