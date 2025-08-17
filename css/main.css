@@ -1,4 +1,4 @@
-/* css/main.css - The Brand Bible */
+8i/* css/main.css - The Brand Bible */
 html {
   font-size: 20px; /* This is our baseline. 1rem now equals 16px. */
 }
@@ -158,4 +158,44 @@ thead {
     display: block;
     margin: 0.5rem 0;
   }
+  .nav-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #ffde59;
+  cursor: pointer;
 }
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .nav-toggle {
+    display: block;
+    margin-left: auto;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #5d341b;
+    position: absolute;
+    top: 60px; /* adjust as needed */
+    left: 0;
+    padding: 1rem 2rem;
+    z-index: 1000;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .navbar ul {
+    gap: 0.5rem;
+  }
+  .navbar li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+}
+
