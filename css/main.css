@@ -1,6 +1,6 @@
 8i/* css/main.css - The Brand Bible */
 html {
-  font-size: 20px; /* This is our baseline. 1rem now equals 16px. */
+  font-size: 40px; /* This is our baseline. 1rem now equals 16px. */
 }
 body {
   background-color: #d1d1d1!important;
@@ -199,7 +199,7 @@ thead {
 }
 }
 .home-bg {
-  background-image: url("/assets/h-bg.jpg'); /* Adjust path if needed */
+  background-image: url("/assets/h-bg.jpg"); /* Adjust path if needed */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
