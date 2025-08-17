@@ -199,9 +199,9 @@ thead {
 }
 }
 .home-bg {
-  background-image: url("/assets/h-bg.jpg"); /* Adjust path if needed */
+  background-image: url('../assets/background.jpg'); /* Adjust path if needed */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed; /* Optional: keeps image fixed on scroll */
+  background-attachment: fixed;
 }
