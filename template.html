@@ -8,6 +8,11 @@
 <link rel="stylesheet" href="../css/main.css">
     <meta name="description" content="Mountain Bean Café and Roaster of Colorado.  Unique Coffee blends that are meant to be enjoyed surrounded by Mother Nature.">
   </head>
+  <script>
+  document.querySelector('.nav-toggle').onclick = function() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  };
+</script>
   <body>
     <!-- This link is the 'emergency exit' that takes users back to safety (your homepage). -->
     <a href="index.html">Back to Home</a>
@@ -15,6 +20,19 @@
   <a href="/index.html" class="logo-link">
  <img src="../assets/logo.png" alt="A stylized logo for Mountain Bean Cafe and Roasters featuring a yellow outline of a steaming coffee cup on a saucer, centered within a vertically elongated mountain silhouette.">
       </a>
+   <nav class="navbar">
+  <a href="/index.html" class="logo-link">
+    <img src="../assets/logo.png" alt="Mountain Bean Cafe Logo">
+  </a>
+  <button class="nav-toggle" aria-label="Open navigation">&#9776;</button>
+  <ul class="nav-links">
+    <li><a href="pages/index.html">Home</a></li>
+    <li><a href="pages/about.html">About Us</a></li>
+    <li><a href="pages/subscription.html">Pricing</a></li>
+    <li><a href="pages/gallery.html">Gallery</a></li>
+    <li><a href="pages/contact.html">Hours and Location</a></li>
+  </ul>
+</nav>
       <ul>
         <li><a href="pages/index.html">Home</a></li>
         <li><a href="pages/about.html">About Us</a></li>
